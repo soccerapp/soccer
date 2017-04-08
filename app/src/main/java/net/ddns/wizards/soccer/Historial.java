@@ -32,7 +32,7 @@ public class Historial extends AppCompatActivity {
     }
     public void ObtDatosHistorial(){
         AsyncHttpClient client = new AsyncHttpClient();
-        String url = "http://wizards.ddns.net:8080/api.wizards.ddns.net/historial.php";
+        String url = "http://wizards.ddns.net:8080/api.soccer.ddns.net/historial.php";
         RequestParams parametros = new RequestParams();
         parametros.put("WIZARDS",1);
 

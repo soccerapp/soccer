@@ -32,7 +32,7 @@ public class Jugadores extends AppCompatActivity {
     }
     public void ObtDatosJugadores(){
         AsyncHttpClient client = new AsyncHttpClient();
-        String url = "http://wizards.ddns.net:8080/api.wizards.ddns.net/jugadores.php";
+        String url = "http://wizards.ddns.net:8080/api.soccer.ddns.net/jugadores.php";
         RequestParams parametros = new RequestParams();
         parametros.put("MIGUEL",1);
 

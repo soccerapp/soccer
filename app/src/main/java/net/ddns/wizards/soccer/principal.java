@@ -43,22 +43,11 @@ public class principal extends AppCompatActivity {
     }
 
     public void canastas (View view){
-        Intent i = new Intent(this, Canastas.class);
+        Intent i = new Intent(this, Goles.class);
         startActivity(i);
         finish();
     }
 
-    public void reglamento (View view){
-        Intent i = new Intent(this, Reglamento.class);
-        startActivity(i);
-        finish();
-    }
-
-    public void reglamento2 (View view){
-        Intent i = new Intent(this, Reglamento2.class);
-        startActivity(i);
-        finish();
-    }
     public void login (View view){
         Intent i = new Intent(this, Login.class);
         startActivity(i);
