@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Soccer</string>
+    <string name="wrong_log">Problemas el usuario o la contraseña no son correctos</string>
 </resources>

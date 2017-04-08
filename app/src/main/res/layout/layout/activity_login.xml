@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_jugadores"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back11"
+    tools:context="net.ddns.wizards.wizards.Login">
+
+    <TextView
+        android:text="Menu Administradores"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:textColor="@android:color/background_dark" />
+    <Button
+        android:text="Regresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:onClick="principal"
+        android:layout_below="@+id/txt1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="29dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/btn1"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_above="@+id/btn2"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginBottom="27dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_centerVertical="true"
+        android:text="Entrar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Usuario"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignTop="@+id/editText"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textColor="@android:color/background_dark"
+        android:layout_alignBaseline="@+id/editText2"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignStart="@+id/textView3" />
+    <TextView
+        android:id="@+id/badLog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wrong_log"
+        android:textColor="#ff121a"
+        android:visibility="invisible"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/textView3" />
+
+
+</RelativeLayout>

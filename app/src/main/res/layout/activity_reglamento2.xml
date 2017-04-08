@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reglamento2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.ddns.wizards.soccer.Reglamento2"
+    android:background="@drawable/backf">
+
+    <TextView
+        android:text="Reglamento"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt1"
+        android:textColor="@android:color/background_dark" />
+    <Button
+        android:text="Regresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn1"
+        android:onClick="principal"
+        android:layout_below="@+id/txt1"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width = "200dp"
+        android:layout_height= "200dp"
+        app:srcCompat="@drawable/reg2"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/btn1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

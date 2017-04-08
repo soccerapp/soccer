@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.ddns.wizards.soccer">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,6 +18,37 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Equipos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Asistencia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Jugadores"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Horario"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Historial"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Canastas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reglamento"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reglamento2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuAdministrador"
+            android:screenOrientation="portrait" />
+        <activity android:name=".AgregarJugador"></activity>
     </application>
 
 </manifest>
